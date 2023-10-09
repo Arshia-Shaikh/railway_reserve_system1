@@ -7,7 +7,7 @@
 #include<string.h>
 
 using namespace std;
-class pn // passenger class name
+class pn 
 {
 public:
 int pnr;  
@@ -25,8 +25,8 @@ void del();
 void display(); 
 void acp(); 
 void check(); 
-void update(int); // FUNCTION TO UPDATE NO. OF
-// SEATS AFTER CANCELLATION
+void update(int);
+
 int ret() 
 {
 return tno;
@@ -43,7 +43,7 @@ return to;
 void add(); 
 void disp();     
 
- class book // tickets  booking  Class name.
+ class book 
 {
 public:
 int no,tickets,pnr;
@@ -87,7 +87,7 @@ star();
 cout<< endl <<" WELCOME TO INDIAN RAILWAYS"<<endl;
  cout<<" ENTER 1 TO CHECK AVAILABILITY "<<endl;
  cout<<" ENTER 2 TO BOOK TICKETS"<<endl;
- cout<<" ENTER 3 FOR CANCELLATION"<<endl;
+ cout<<" ENTER 3 FOR cancellation"<<endl;
  cout<<" ENTER 4 FOR ADMIN ACCESS"<<endl;
  cout<<" ENTER 5 TO EXIT"<<endl;
 cout<<" ENTER YOUR CHOICE - "<<endl;
